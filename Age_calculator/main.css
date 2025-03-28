@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.age-cal {
+    width: 300px;
+    margin:12px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffff;
+    box-shadow: 10px 20px 10px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+button {
+    background-color:blue;
+    color: #ffff;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 50px;
+    padding: 5px;
+    
+}
+
+button:hover {
+    opacity: .5;
+
+}
+label {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+input {
+    width: 130px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+#result {
+    font-weight: bolder;
+}
