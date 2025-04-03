@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: salmon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container button {
+    margin-right: 20px;
+    padding: 50px ;
+    width: 250px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-size:cover ;
+    color:tomato;
+    text-shadow:2px 2px 4px rgba(0,0,0,.4);
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.container button:hover {
+    color: pink;
+}
+
+button:active {
+    background-size: 120%;
+}
+
+.crash{
+    background-image:url(./crash.png)
+}
+
+.snare{
+    background-image: url(./snare.png);
+}
+
+.kick{
+    background-image: url(./kick.png);
+}
+
+.tom{
+    background-image: url(./tom.png);
+}
