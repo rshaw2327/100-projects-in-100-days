@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+
+
+.img-container {
+    display:flex
+}
+
+
+
+.img-container div {
+    width: 100px;
+    height: 600px;
+    border-radius: 50px;
+    background-position:cover;
+    margin: 0 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    transition-duration: 0.3s;
+
+}  
+
+.img-container div.active {
+    width: 900px;
+
+}
+
+.img-container div h1 {
+    color: #ffff;
+    position: relative;
+    opacity: 0;
+    margin-left:30px;
+    transition-duration: .3s;
+}
+
+
+.img-container div.active h1 {
+    opacity: 1;
+
+}
