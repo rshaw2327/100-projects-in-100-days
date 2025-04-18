@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color:darkolivegreen
+}
+
+img {
+    width: 70px;
+    position:absolute;
+    left:50%;
+    bottom: 70%;
+    transform: translateX(-50%);
+    z-index: 2;
+
+}
+
+.clock {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    border-radius: 50%;
+    border: solid black 2px;
+    box-shadow: 2px 4px 6px rgba(0,0,0,4);
+
+}
+
+.numbers div {
+    position: absolute;
+    font-size: 27px;
+    color: goldenrod;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,4) ;
+
+}
+
+ .twelve {
+    left: 45%;
+    transform: translate(-50);
+
+ }   
+
+ .three {
+    right:6px;
+    top: 45%;
+    transform: translateY(-50);
+ }
+
+ .six {
+    bottom: 2px;
+    left: 49%;
+    transform: translateX(-50);
+
+ }
+
+ .nine {
+    left:6px;
+    bottom: 45%;
+    transform: translateY(-50);
+
+ }
+
+ .arrows {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .arrows::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: green;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.4);
+    z-index: 4;
+ }
+
+
+ .arrows div{
+    background-color: #ffff;
+    width: 7px;
+    height: 180px;
+    position: absolute;
+    transform-origin: bottom center ;
+    bottom: 50%;
+    z-index: 3;
+    border-radius: 50% 50% 0 0;
+    box-shadow:1px 1px 2px rgba(0,0,0,.4); 
+
+
+ }
+
+ .arrows .hour {
+    height: 100px;
+    transform: rotate(280deg);
+
+ }
+
+ .arrows .minutes {
+    
+ }
+
+ .arrows .second {
+    transform: rotate(30deg);
+    background-color: darkgoldenrod;
+ }
