@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    align-items: center;
+    height: 100vh;
+    background-color: darkolivegreen;
+  
+
+}
+.main-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-btn {
+    font-size: 150px;
+    background-color: firebrick;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px;
+    color: #ffff;
+
+}
+
+.computer-btn {
+    font-size: 150px;
+    background-color: firebrick;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px;
+    color: #ffff;
+
+    
+}
+
+.game-btns {
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffff;
+    
+    /* background-color: aquamarine; */
+}
+
+.game-btns button{
+    margin-top: 60px;
+    font-size: 150px;
+    align-items: center;
+    color: gold;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px;
+    border: none;
+    cursor: pointer;
+  
+}
+.game-btns button:hover {
+    background-color:firebrick;
+   
+}
+
+
+.game-btns span {
+    align-items: center;
+}
+
+.players {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
+
+
+.players span {
+    background-color:khaki;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 3px 4px 8px;
+    font-size: 40px;
+    cursor: pointer;
+
+
+} 
+
+@keyframes animation {
+    0% {background-color: #ffff;}
+
+}
