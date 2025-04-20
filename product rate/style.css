@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    color:#d43f8d;
+
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.discount {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 6px 8px ;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.btn {
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+    color: white;
+
+}
+
+.discount input {
+    width: 150px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.discount label {
+    font: bold;
+    font-size: 22px;
+}
