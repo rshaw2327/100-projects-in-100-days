@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.temperature-container {
+    background: rgba(255,255,255,.2);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,.4);
+    max-width: 550px;
+    min-width: 350px;
+
+
+    
+}
+
+h1 {
+    color: #d16ba5;
+    font-size: 32px;
+
+}
+
+label {
+    color: #5ffbf1;
+    float: left;
+}
+
+.temperature input {
+    width: 220px; 
+    margin-bottom: 30px ;
+    padding: 5px;
+    float: right;
+    border: none;
+    border-color: #d16ba5;
+   
+}
+
+
+
+
