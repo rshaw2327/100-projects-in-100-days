@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.search {
+    background-color: teal;
+    padding: 60px;
+    border-radius: 20px;
+    color: white;
+    
+  
+}
+
+.input {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    font-size: 24px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 24px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: tomato;
+
+}
