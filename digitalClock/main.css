@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  height: 100vh;
+  background-image: url("https://media.istockphoto.com/id/1160979608/photo/view-over-old-man-of-storr-isle-of-skye-scotland.jpg?s=2048x2048&w=is&k=20&c=L8uJTpU4g7yLKroFcRKa2u2bk6f5o5IMoXaL8Ai9ZhU=");
+}
+
+h3 {
+  font-size: 20px;
+  color: rebeccapurple;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.clock {
+  display: flex;
+  margin-top: 10px;
+  /* background-color: aquamarine; */
+}
+
+.clock span {
+  width: 100px;
+  height: 100px;
+  margin: 0px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 8px;
+  background-color: cornflowerblue;
+  opacity: 0.8;
+  color: #fff;
+  font-size: 45px;
+}
+
+.clock .text {
+  font-size: 14px;
+  height: 30px;
+  text-transform: uppercase;
+  background-color: darkblue;
+  color: #fff;
+}
+
+.clock #ampm {
+  background-color: green;
+  width: 40px;
+  height: 50px;
+  font-size: 20px;
+  align-items: center;
+  position: absolute;
+  right: 34%;
+  bottom: 290px;
+}
