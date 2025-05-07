@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+
+
+.skill{
+    width: 160px;
+    height: 160px;
+    /* background-color: aquamarine; */
+    position: relative;
+
+}
+.outer{
+    width: 160px;
+    height: 160px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), 
+    -6px -6px 10px rgba(255,255,255,0.7);
+
+}
+
+.inner{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: 40px;
+    left: 38px;
+    box-shadow:inset 4px 4px 6px -1px rgba(0,0,0,0.2), 
+    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+    -0.5px -0.5px 0px rgba(255,255,255,1),
+    0.5px 0.5px 0px rgba(0,0,0,0.15),
+    0px 0px 10px -10px rgba(0,0,0,0.05);
+
+}
+
+#number {
+    font-weight:600;
+    color:chocolate;
+    font-size: 20px;
+}
+
+circle {
+    fill: none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+
+svg{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+@keyframes anim {
+    100%{
+        stroke-dashoffset: 0;
+    }
+    
+}
