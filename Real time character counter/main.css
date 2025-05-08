@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color:darkslategrey;
+    font-family: cursive;
+}
+
+
+.container {
+    background-color: salmon;
+    width: 300px;
+    padding: 50px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+
+}
+
+.container textarea {
+    resize: none;
+    width: 95%;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: solid 2px darkgrey;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.total-counter {
+    color: blue;
+    
+}
+
+.remaining-counter {
+    color: red;
+}
