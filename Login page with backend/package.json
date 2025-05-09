@@ -1,0 +1,25 @@
+{
+  "name": "login-page-with-backend",
+  "version": "1.0.0",
+  "description": "login page data going to mongodb",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "AUTHENTICATION"
+  ],
+  "author": "shawrich",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.12",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  }
+}

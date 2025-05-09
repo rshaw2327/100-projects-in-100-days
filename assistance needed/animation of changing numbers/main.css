@@ -1,0 +1,41 @@
+.container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 32px;
+    background-color: yellowgreen;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+
+
+
+.stats-container {
+
+    background-color: aqua;
+    margin:20px;
+    border: 2px solid grey;
+    position: relative;
+    padding: 20px;
+    width: 300px;;
+
+}
+
+i {
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.stats-container span {
+
+    font-size: 56px;
+    color: darkgreen;
+    
+}

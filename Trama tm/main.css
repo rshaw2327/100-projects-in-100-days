@@ -1,0 +1,216 @@
+.navbar {
+    /* background-color: aqua; */
+    
+}
+
+.navbar ul {
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar li {
+    /* background-color: chocolate; */
+    list-style-type: none;
+ 
+
+}
+
+.navbar li a {
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    text-decoration: none;
+    margin-right: 80px;
+    color: black;
+}
+
+.nav-right a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#currency:hover {
+    background-color: lightgray;
+    border-radius: 10%;
+    padding: 2px 3px 2px 4px;
+    transition-duration: 0.3s;
+
+}
+
+#log-in {
+    background-color:white ;
+    border-radius: 10%;
+    padding: 2px 3px 2px 4px;
+    border: 2px solid lightgrey;
+    
+}
+
+#log-in:hover {
+    background-color: lightgrey;
+    transition-duration:0.3s ;
+}
+
+#get-help {
+    color:brown;
+    background-color:cornsilk;
+    border: 2px solid lightcoral;
+    padding:2px 3px 2px 4px;
+    
+}
+
+#get-help:hover {
+    background-color: burlywood;
+
+}
+
+/* hero-section */
+
+.hero {
+    margin: 80px 200px 80px 200px;
+}
+
+.hero-left {
+    width: 60%;
+}
+
+.hero-left h1 {
+    font-size: 50px;
+}
+.hero-left h4 {
+    color: #718eaa;
+    font-weight: 400;
+}
+
+.hero-btns {
+    margin-top: 40px;
+
+}
+.hero-btns a {
+    text-decoration: none;
+    margin-right:20px ;  
+
+}
+
+#lawyer-check-btn {
+    background-color: #cf6558;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+#price-list-btn {
+    background-color: #fcf5f2;
+    color: #cf6558;
+    font-size: 18px;
+    padding: 15px ;
+    border: 2px solid #f4cfcc;
+    border-radius: 10px ;
+}
+
+/* end-to end brand protection */
+
+.end-to-end h1{
+    text-align: center;
+
+}
+
+.row{
+    text-align: center;
+
+}
+
+.IP {
+    margin-right: 20px;
+    width: 400px !important;
+    border-radius: 10%;
+    height: 300px;
+}
+
+.TM-reg {
+    margin-right: 20px;
+    width: 400px !important;
+    border-radius: 10%;
+}
+
+.TM-watch {
+    margin-right: 20px;
+    width: 400px !important;
+    border-radius: 10%;
+}
+
+.row small {
+    background-color:#f2f4f7;
+}
+
+.row p {
+    color:#737692 ;
+    width:350px;
+    text-align: center;
+    margin: 15px;
+}
+
+.row a{
+    background-color: #fcf5f2;
+    color: #cf6558;
+    font-size: 18px;
+    padding: 14px 80px 14px 80px ;
+    border: 2px solid #f4cfcc;
+    border-radius: 10px ;
+    text-decoration: none;
+    
+}
+
+/* How it works */
+
+.how-it-works {
+    margin: 80px 200px 80px 200px;
+    
+}
+
+.row-HIW {
+    display: flex;
+    
+}
+
+.col-HIW {
+    margin-right: 25px;
+    width: 250px;
+    margin-top: 45px;
+    
+}
+
+.col-HIW h2 {
+    font-size: 25px;
+}
+
+.col-HIW small {
+    color: #737692;
+}
+
+/* why register a trademark */
+
+.WRT {
+    background-color: #f4cfcc;
+    margin: 80px 200px 80px 200px;
+}
+
+.WRT h1 {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+/* what our clients say */
+.WOCS {
+    margin: 80px 200px 80px 200px;
+}
+
+.scrollspy-example-2 {
+    height:500px;
+    overflow-y: scroll;
+}

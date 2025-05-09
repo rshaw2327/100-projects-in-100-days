@@ -1,0 +1,142 @@
+/* Syntax */
+/* selector {
+    property: value;
+    property2: value;
+} */
+
+/* Selectors */
+/* 1. Simple Selectors */
+/* 1.a Tagname Selectors  */
+
+/* Select all the h1 elements */
+h1 {
+    /* property1: value1; */
+    /* property2: value2 */
+}
+    
+/* Select all the p elements */
+p {
+    /* property1: value1 */
+    /* property2: value2 */
+}
+
+/* 1.b ID Selectors */
+/* select element whose ID is "resize" */
+/*<h1 id="resize">Hello</h1>  */ 
+#resize {
+    /* property1: value1 */
+    /* property2: value2 */
+}
+
+/* select element whose ID is "hide" */
+/* <h2 id="hide">Hello</h2> */
+#hide {
+    /* property1: value1 */
+    /* property2: value2 */
+}
+
+/* 1.c Class selector
+Select all the elements whose class is "active" */
+/* <h1 class="active"> HEllo world</h1> */
+.active {
+    /* property1: value1 */
+    /* property2: value2 */
+}
+
+/* Select all the elements whose class is "highlight" */
+/* <h1 class="highlight">hello world</h1> */
+.highlight {
+    /* property1: value1 */
+    /* property2: value2 */
+}
+
+/* Universal Selector */
+/*  "*" will select all the tags/elements */
+* {
+    /* property1: value1 */
+    /* property2: value2 */
+}
+
+/* Grouping selector:- using comma "," we can group multiple selections  */
+h1, h2, #hide, #resize, .active, .highlight {
+      /* property1: value1 */
+    /* property2: value2 */
+}
+
+/* 2. combinator selectors */
+/* 2.a Descendant selector ( )-> space */
+/* ancestor descendant {
+
+ } */
+/* select all the aelements who are descendants of header */
+header a {
+    color: red;
+}
+
+/* select all the elements who are descendants of footer */
+footer a {
+    background-color: aquamarine;
+}
+
+/* 2.b Child selector(>) */
+/* select all the elements who are direct child of the header */
+
+header>a {
+        text transform: uppercase;
+}
+
+/*select all the a elements whos are direct child of footer  */
+footer>div>a{
+ display: inline-block;
+ padding: 0%;
+} 
+
+/* 2.c Adjacent sibling selector (+) */
+#logo+nav {
+    background-color: aqua;
+}
+/* 2.d General sibling selector (~) */
+#logo~nav {
+    border: 2px solid black;
+}
+
+/* 3. Pseudo class selcetors */
+/* unvisted links */
+.footer-link:link{
+    color: khaki;
+    background-color : orchid;
+}
+
+/* visited links */
+.footer-link:visited{
+    /* property1: value1 */
+    /* propert2: value2 */
+
+}
+
+/* Hover */
+.footer-link:hover{
+    color: aliceblue;
+    text-decoration: underline;
+    background-color: aliceblue;
+    
+}
+
+/* active */
+.footer-link:active {
+    color: aliceblue;
+
+}
+
+/* inputs  */
+input:hover {
+    border: 1px solid red
+}
+ input:disabled {
+    border: 1px solid darkblue
+ }
+
+ input:checked {
+    width: 30px;
+    height: 0cqmax;
+ }

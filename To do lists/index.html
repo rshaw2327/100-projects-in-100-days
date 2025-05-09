@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- fontsawsome -->
+    <script src="https://kit.fontawesome.com/2a218ecf02.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="add-task">
+        <h1>To do list</h1>
+        <input type="text" name="tsk-input" class="tsk-input" id="tsk-input" placeholder="Add Task here">
+        <button onclick="addTask()" class="plus-btn"> <i class="fa-solid fa-circle-plus"></i></button> 
+
+        <ul id="list-container">
+            <li class="checked">Do laundary</li>
+             <li>Do laundary</li>
+            <li>Do laundary</li>
+            <li>Do laundary</li>
+            <li>Do laundary</li>
+            <li>Do laundary</li>
+            <li>Do laundary</li>  
+            
+        </ul>
+    </div>
+
+    <div class="edit-task">
+        <h1> Edit tasks</h1>
+        <div class="btn-tags">
+            
+            <a href="">Reminder<i class="fa-regular fa-bell"></i></a>
+            <a href="">Personal<i class="fa-solid fa-house"></i><span></span></a>
+            <a href="">Tags<i class="fa-solid fa-tag"></i><span></span></a>
+        </div>
+        <label for="notes">Notes</label>
+        <input type="text" name="notes" class="notes">
+        <script src="./main.js"></script>
+    </div>
+
+
+
+</body>
+
+</html>

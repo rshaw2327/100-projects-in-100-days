@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+
+        <form id="form" action="GET">
+
+            <fieldset id="login-page">
+                <button class="btn" type="submit"><i class="fa-solid fa-xmark"></i></button>
+
+                <h1>Register</h1>
+                <div id="input">
+                    <div class="user-input">
+                        <label id="username-label" for="username">Username</label>
+                        <input required type="text" id="username" name="username" >
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <div class="email-input"> 
+                        <label id="email-label" for="email">Email</label>
+                        <input required type="email"  name="email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="pass-input">
+                        <label for="password" id="password-label">Password</label>
+                        <input type="password" id="password" name="password">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Remember me</label>
+
+
+                    <button class="btn">Login</button>
+
+                </div>
+                <h4>Already have an account? <a href="">Login</a> </h4>
+
+
+            </fieldset>
+
+        </form>
+    </main>
+
+    <script src="https://kit.fontawesome.com/2a218ecf02.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+body {
+    box-sizing: border-box;
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgoldenrod;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.titleDate {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+
+
+}
+
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2px;
+    align-items: start;
+        
+}
+
+.newsCont {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    background-color:aqua ;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    width: 300px;
+    /* height: 650px; */
+    border: 2px solid black;
+
+    
+    
+}
+
+.newsCont .description{
+    font-size: large;
+    margin: 10px;
+   
+
+}
+
+.newsCont p {
+    line-height: 20px;
+    margin: 2px;
+    
+}
+
+.newsCont img {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+.newsCont .category {
+    margin: 10px;
+}
+
+.newsCont .language {
+    margin: 10px;
+}
+
+.newsCont .country {
+    margin: 10px;
+}
+
+.newsCont .source_id {
+    margin: 10px;
+}
+
+.newsCont .source_id {
+    margin: 10px;
+}
+
+.showMoreBtn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+

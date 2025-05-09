@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player app</title>
+    <script src="https://kit.fontawesome.com/2a218ecf02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-icons">
+            <i class="fa-solid fa-angle-left"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <img src="https://images.unsplash.com/photo-1520872024865-3ff2805d8bb3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNlbGVicml0eSUyMHNpbmdpbmd8ZW58MHx8MHx8fDA%3D"
+            width="200px " alt="">
+        <h4>Promise</h4>
+        <h6>Luke and Lorelai</h6>
+        <!-- <audio id="song" source src="/luke-lorelai-promise-128-ytshorts.savetube.me.mp3" type="audio/mpeg"></audio> -->
+        <input type="range" value="0" id="progress">
+        <div class="line">
+            <div class="dot"></div>
+        </div>
+        <div class="play-pause-icons">
+            <div><i class="fa-solid fa-backward"></i></div>
+            <div onclick="playPause()" id="ctrl-icon"><i class="fa-regular fa-circle-play"></i> </div>
+            <div> <i class="fa-solid fa-forward"></i> </div>
+
+        </div>
+    </div>
+
+    <script src="./main.js">
+
+    </script>
+</body>
+
+</html>

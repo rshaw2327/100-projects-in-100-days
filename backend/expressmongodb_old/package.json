@@ -1,0 +1,22 @@
+{
+  "name": "expressmongodb",
+  "version": "1.0.0",
+  "description": "connecting express server to mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "javascript",
+    "monogodb"
+  ],
+  "author": "shawrich",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}

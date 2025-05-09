@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    box-shadow: 2px 8px 8px rgba(0,0,0,.6); ;
+    padding: 80px;
+}
+
+.container.active {
+    display: none;
+}
+
+.feedback {
+    display: flex;
+}
+
+ h4 {
+    width: 230px;
+
+}
+
+
+
+.feedback p {
+
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.feedback p:hover {
+    box-shadow: 4px 6px 8px rgba(0,0,0,.5);
+    
+
+}
+
+ p .satisfied .active {
+    box-shadow: 4px 6px 8px rgba(0,0,0,.5);
+
+
+}
+
+button {
+    background-color: black;
+    color: #ffff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+

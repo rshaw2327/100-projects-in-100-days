@@ -1,0 +1,185 @@
+*{
+    font-style:  'Conv_Poppins-Light';
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+ ul {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    list-style-type: none;
+    padding-left: 20px;
+   
+}
+
+ ul a {
+    margin-right: 42px;
+    text-decoration: none;
+   font-size: 16px;
+   padding-left: 20px;
+   
+}
+
+.logoMenu {
+    margin-left: 50px;
+}
+
+.fa-phone {
+    font-size: 20px;
+    color: red;
+}
+
+.contact-info span {
+    font-size: 20px;
+    font-weight: 200;
+    color: red;
+    margin-right: 20px;
+
+}
+
+.fa-magnifying-glass {
+    font-size: 20px;
+    color: red;
+    margin-right: 20px;
+
+}
+
+.fa-user {
+    font-size: 20px;
+    color: red;
+    margin-right: 80px;
+
+}
+
+/* hero section */
+
+.hero-section{
+    display:flex;
+    justify-content: stretch;
+}
+
+.hero-text{
+    background-color: rgb(211, 211, 211);
+    width:800px;
+    height:500px;
+    display: inline-block;
+    padding-left: 60px; 
+}
+.hero-text h3{
+    background-color: red;
+    display:inline-block;
+    color: #ffff;
+    padding:12px;
+}
+
+.hero-text h1{
+    width:400px;
+  
+
+}
+
+.hero-text p {
+    width: 600px;
+    font-size: 22px;
+}
+
+.hero-text h2 {
+    font-size: 35px;
+}
+
+.hero-text button {
+    color: red;
+    font-size: 28px;
+    padding: 16px;
+    border-radius: 10px;
+    border-color: red;
+    transition-duration: 0.8s;
+}
+
+.hero-text button:hover {
+    background-color: black;
+    color: #ffff;
+}
+.OF-cover {
+    display: inline-block;
+    width:800px;
+    height:500px;
+}
+
+/* trademark application services */
+
+.TM-app-section h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TM-app-section p {
+    
+    font-size: 20px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+.tm-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 300px);
+    margin-top: 40px;
+    margin-left: 180px;
+
+}
+
+.tm-app-services {
+    background-color: rgba(240, 234, 234, 0.832);
+    margin-right: 40px;
+    
+}
+
+.IP-mangmt-rev {
+    background-color: rgba(240, 234, 234, 0.832);
+    margin-right: 40px;
+}
+
+.dispute-specialists {
+    background-color: rgba(240, 234, 234, 0.832);
+    margin-right: 40px;
+
+}
+
+.tm-cards p {
+    font-size: 20px;
+    line-height: 30px;   
+}
+
+
+.tm-cards i {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.tm-cards i:hover {
+    right:-5px;
+}
+
+.tm-cards span {
+    font-size: 20px;
+    color: red;
+    transition-duration: 5s;
+}
+
+.tm-cards span:hover {
+    text-decoration: underline;
+}
+

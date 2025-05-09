@@ -1,0 +1,37 @@
+h1 {
+    color: darkgoldenrod;
+    background-color:lightskyblue;
+    font-size: 50px;
+    text-transform:uppercase;
+}
+p::selection{
+    color: brown;
+    background: violet;
+}
+
+::marker {
+    color: blueviolet;
+}
+
+#ordered-list {
+    list-style-type:upper-roman;
+    
+}
+ol li {
+    background-color: bisque;
+    display: inline-block;
+    padding: 8px; 
+}
+ul, ol {
+    text-transform: capitalize;
+
+}
+
+p::first-letter {
+    color: blue;
+    font-size: xx-large;
+}
+
+h1::before{
+    content: url(smiley.gif);
+}

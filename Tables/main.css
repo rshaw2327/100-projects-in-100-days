@@ -1,0 +1,37 @@
+/* body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    /* flex-direction: column; */ */
+}
+
+.table tr th{
+    border: 2px solid black;
+    background-color: cadetblue;
+    color: #ffff;
+   
+    
+
+}
+
+
+.table td{
+ border: 2px solid black;
+ display: flex;
+ flex-direction: column;
+ background-color: aquamarine;
+
+
+}
+ .image_of_invention tr td {
+    display: flex;
+    flex-direction: column; 
+}
+
+.table-data  td {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}

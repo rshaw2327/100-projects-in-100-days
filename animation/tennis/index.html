@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .net{
+            width: 900px;
+            height: 120px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .man {
+            position: absolute;
+            left: 500px;
+            bottom: 50px;
+            /* animation-name: moving; */
+            /* animation-duration: 9s; */
+        }
+
+        @keyframes moving {
+            0% {
+                transform: translate(100px);
+            }
+
+            100% {
+                transform: translate(500px);
+            }
+            
+        }
+
+        .head{
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            border-radius: 50px;
+
+        }
+
+        .hands-left {
+            height: 120px;
+            width: 30px;
+            background-color: green;
+            position: relative;
+            right: 40px;
+            transform:rotate(15deg);
+        }
+
+        .hands-right {
+            height: 120px;
+            width: 30px;
+            background-color: green;
+            transform: rotate(40deg);
+            position: relative;
+            left: 80px;
+            top: -220px;
+        }
+
+
+        .body{
+            height: 300px;
+            width: 60px;
+            background-color: green;
+        }
+
+        .badmittion {
+            height: 70px;
+            width: 65px;
+            border-radius: 40%;
+            background-color:brown;
+            position: relative;
+            bottom: 450px;
+            left: 100px;
+        }
+
+        .handle{
+            height: 80px;
+            width: 25px;
+            background-color:brown;
+            position: relative;
+            bottom: -60px;
+            right:-20px;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="net"></div>
+    <div class="man">
+        <div class="head"></div>
+        <div class="body">
+            <div class="hands-left"></div>
+            <div class="hands-right"></div>
+            <div class="badmittion">
+                <div class="handle"></div>
+            </div>
+        </div>
+    </div>
+    <div class="ball"></div>
+
+    <script>
+        const manEL = document.querySelector(".man");
+
+        document.addEventListener("keydown",(e) => {
+            console.log(f)
+
+
+        })
+        
+    </script>
+    
+</body>
+</html>

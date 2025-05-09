@@ -1,0 +1,65 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: turquoise;
+
+
+}
+.btn {
+    background-color: yellowgreen;
+    color: #ffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    float: right;
+}
+.btn.active {
+    display:flex
+}
+
+.writing-pad{
+    display: none;
+}
+
+.writing-pad.active {
+    display: flex;
+}
+
+.icons {
+    background-color: yellowgreen;
+    width: 364px;
+    color: #ffff;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.fa-pen-to-square {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.fa-trash-can {
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+input {
+    padding: 100px;
+    height: 350px;
+    border: none;
+    box-shadow: 8px 6px 8px rgba(0,0,0,.6);
+    
+}
+
+input.active {
+    border:none;
+}

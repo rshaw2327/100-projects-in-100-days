@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-size: medium;
+    background-image: url(https://media.istockphoto.com/id/2166282428/photo/a-beautiful-and-lush-green-forest-canopy-illuminated-by-warm-sunlight-streaming-through.jpg?s=612x612&w=is&k=20&c=JIqC1BRIrP8R6dDJmUaZx8kQDexlb-La3dZXuLfgQMw=);
+    background-size: cover;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: burlywood;
+    
+}
+
+.modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-overlay {
+    opacity: 2;
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content {
+    background-color: #ffff;
+    padding:4rem;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.modal.open {
+    display: flex;
+}

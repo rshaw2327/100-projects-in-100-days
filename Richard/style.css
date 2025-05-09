@@ -1,0 +1,48 @@
+/* CSS Selectors */
+/* selector {
+    property-name1: value1;
+    property-name2: value2;
+    property-name3: value3;
+} */
+
+/* tagname selector */
+header {
+    display: flex;
+    background-color: red;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    opacity: 1;
+    background-color: green;
+}
+
+
+/* ID Selector (#) hash */
+#logo {
+    font-size: 32px;
+    display: block;
+    background-color: darkcyan;
+}
+#body {
+    margin: 0;
+    background-color: #565656;
+}
+
+/* Class selector (.) dot */
+.nav-link {
+    /* color: blue; */
+}
+.footer-link {
+    /* color: green; */
+    color: white;
+}
+.active {
+    color: red;
+    text-decoration: underline;
+}

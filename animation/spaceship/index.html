@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spaceship</title>
+    <style>
+        .tank {
+            background-color: darkolivegreen;
+            width: 300px;
+            height: 150px;
+            position: absolute;
+            left: calc(50% - 150px);
+            bottom: 60px;
+            border-radius: 20px;
+            /* animation-name: moving; */
+            /* animation-duration: 9s; */
+        }
+
+        @keyframes moving {
+            0% {
+                transform: translate(500px)
+            }
+
+            100% {
+                transform: translate(100px);
+            }
+        }
+
+        .w {
+            background-image: linear-gradient(red, blue, green);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            position: absolute;
+            top: 120px;
+            left: 20px;
+        }
+
+        .wheel-2 {
+            left: unset;
+            right: 20px;
+
+        }
+
+        .fire {
+            height: 150px;
+            width: 50px;
+            background-color: darkolivegreen;
+            border: 2px solid red;
+            border-radius: 10px;
+            position: absolute;
+            bottom: 150px;
+            right: calc(50% - 25px);
+            transform-origin: 50% 100%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tank">
+        <div class="fire"> </div>
+        <div class="w wheel-1"></div>
+        <div class="w wheel-2"></div>
+    </div>
+    <script>
+        const tankEl = document.querySelector(".tank");
+        const wEl = document.querySelectorAll(".w");
+        const fireEl = document.querySelector(".fire");
+
+        document.addEventListener("keydown", (e) => movespaceship(e));
+        let x = 0;
+        let deg = 0;
+        let fire_deg = 0;
+
+        function movespaceship(e) {
+            if (e.keyCode == 37) {
+                x -= 10;
+                deg -= 4.36;
+                tankEl.style.transform = `translateX(${x}px)`;
+                wEl[0].style.transform = `rotate(${deg}deg)`;
+                wEl[1].style.transform = `rotate(${deg}deg)`;
+            }
+            else if (e.keyCode == 39) {
+                x += 10;
+                deg += 4.36;
+                tankEl.style.transform = `translateX(${x}px)`;
+                wEl[0].style.transform = `rotate(${deg}deg)`;
+                wEl[1].style.transform = `rotate(${deg}deg)`;
+            }
+            else if (e.keyCode == 65) {
+                fire_deg -= 5;
+                if(fire_deg > -70) {
+                    fireEl.style.transform = `rotate(${fire_deg}deg)`;
+                } else {
+                    fire_deg = -70
+                }
+            }
+            else if (e.keyCode == 68) {
+                fire_deg += 5;
+                if(fire_deg < 70) {
+                    fireEl.style.transform = `rotate(${fire_deg}deg)`;
+                } else {
+                    fire_deg = 70
+                }
+            }
+        };
+    </script>
+</body>
+
+</html>

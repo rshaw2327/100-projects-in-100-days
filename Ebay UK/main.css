@@ -1,0 +1,104 @@
+.nav-up-links ul {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-right: 700px; */
+    list-style-type: none;
+    /* background-color: aquamarine; */
+    
+   
+}
+
+
+.nav-up-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.nav-up-links span {
+    right:90px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.fa-bell-concierge{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 26px;
+}
+
+.fa-basket-shopping {
+    font-size: 24px;
+}
+
+/* nav-up links */
+
+
+
+#gh-logo {
+    /* background-color: aquamarine; */
+    margin-top:70px; 
+
+}
+
+.search-bar-section {
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 60px;
+
+}
+
+
+.search-bar-section p {
+    font-size: 18px;
+}
+.search-bar-long {
+    font-size: 26px;
+    width: 800px;
+    padding: 0 30px;
+
+    /* background-color:aqua */
+}
+
+
+
+.all-categories-btn {
+    font-size: 16px;
+
+
+}
+
+.submit-btn{
+    width: 120px;
+    height:35px;
+    background-color:mediumblue;
+    color: #ffff;
+
+}
+
+/*  nav-down links */
+
+.nav-down ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style:none ;
+
+
+}
+
+.nav-down a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-down a:hover {
+    text-decoration: underline;
+    color: blue;
+
+}

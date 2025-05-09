@@ -1,0 +1,15 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: shake;
+    animation-duration: 7s;
+}
+
+@keyframes shake {
+    0%{transform:rotateX(0deg); background-color: black;}
+    25%{transform: rotateY(320deg); background-color: cadetblue;}
+    55%{transform: rotate(20deg); background-color:violet;}
+    85%{transform: rotate(720deg); background-color:yellow;}
+    100%{transform: rotateY(720deg); background-color:tomato;}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "air-bnb-data",
+  "version": "1.0.0",
+  "description": "air bnb data ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "javascript",
+    "data",
+    "node",
+    "customers"
+  ],
+  "author": "shawrich",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}

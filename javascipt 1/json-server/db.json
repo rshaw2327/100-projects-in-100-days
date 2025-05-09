@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "instagram post",
+      "author": "richard"
+    },
+
+    {
+      "id": 2,
+      "title": "facebook post",
+      "author": "richard"
+    },
+
+    {
+      "id": 3,
+      "title": "twitter post",
+      "author": "richard"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "informative post",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "informative post",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "informative post",
+      "postId": 2
+    }
+  ],
+  "profile": {
+    "name": "Richard"
+  }
+}

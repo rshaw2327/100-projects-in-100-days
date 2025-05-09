@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "npm": "^11.3.0"
+  },
+  "name": "netflixdata",
+  "version": "1.0.0",
+  "description": "Data for netflix ",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "netflix",
+    "data",
+    "json",
+    "data",
+    "javascript"
+  ],
+  "author": "shawrich",
+  "license": "ISC"
+}

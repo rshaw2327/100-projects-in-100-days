@@ -1,0 +1,357 @@
+{
+    "status": "success",
+    "totalResults": 136,
+    "results": [
+        {
+            "article_id": "195ff0f5a559bb9362365e177b0ac6e1",
+            "title": "2 Dads Bounce Houses And Party Rentals Boosts Rentals With Thrilling Innovations",
+            "link": "https://menafn.com/1109325282/2-Dads-Bounce-Houses-And-Party-Rentals-Boosts-Rentals-With-Thrilling-Innovations",
+            "keywords": null,
+            "creator": [
+                "marketing@menafn.com (MENAFN)"
+            ],
+            "video_url": null,
+            "description": "(MENAFN - GlobeNewsWire - Nasdaq) Arizona's premier event rental company redefines party entertainment with top-tier inflatables and services.Peoria, AZ , March 17, 2025 (GLOBE NEWSWIRE) -- As ...",
+            "content": "ONLY AVAILABLE IN PAID PLANS",
+            "pubDate": "2025-03-17 22:30:43",
+            "pubDateTZ": "UTC",
+            "image_url": "https://menafn.com/images/Menafn_SmallLogo.jpg",
+            "source_id": "menafn",
+            "source_priority": 1117534,
+            "source_name": "Menafn",
+            "source_url": "https://menafn.com",
+            "source_icon": "https://i.bytvi.com/domain_icons/menafn.png",
+            "language": "english",
+            "country": [
+                "world"
+            ],
+            "category": [
+                "education"
+            ],
+            "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "duplicate": true
+        },
+        {
+            "article_id": "19c8635b77fa74b952263679e41f53c9",
+            "title": "Rare job opportunity with £30k salary at breathtaking Scots beauty spot",
+            "link": "https://www.thescottishsun.co.uk/money/14503437/rare-job-30k-salary-scots-beauty-spot/",
+            "keywords": [
+                "longtail",
+                "money",
+                "jobs",
+                "news money"
+            ],
+            "creator": [
+                "Chris Taylor"
+            ],
+            "video_url": null,
+            "description": null,
+            "content": "ONLY AVAILABLE IN PAID PLANS",
+            "pubDate": "2025-03-17 19:56:47",
+            "pubDateTZ": "UTC",
+            "image_url": "https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2025/03/newspress-collage-vwp4mdpou-1742240197614.jpg?w=620",
+            "source_id": "thescottishsun",
+            "source_priority": 31532,
+            "source_name": "The Scottish Sun",
+            "source_url": "https://www.thescottishsun.co.uk",
+            "source_icon": "https://i.bytvi.com/domain_icons/thescottishsun.png",
+            "language": "english",
+            "country": [
+                "united kingdom"
+            ],
+            "category": [
+                "business"
+            ],
+            "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "duplicate": false
+        },
+        {
+            "article_id": "ddc8898861cb7b1e8456a42a6bb1c44f",
+            "title": "Crystal Palace confirm Dougie Freedman exit as sporting director linked with surprise 'overseas' role",
+            "link": "https://uk.sports.yahoo.com/news/crystal-palace-confirm-dougie-freedman-192931531.html",
+            "keywords": null,
+            "creator": [
+                "Evening Standard"
+            ],
+            "video_url": null,
+            "description": null,
+            "content": "ONLY AVAILABLE IN PAID PLANS",
+            "pubDate": "2025-03-17 19:35:12",
+            "pubDateTZ": "UTC",
+            "image_url": null,
+            "source_id": "yahoo",
+            "source_priority": 17,
+            "source_name": "Yahoo! News",
+            "source_url": "https://news.yahoo.com",
+            "source_icon": "https://i.bytvi.com/domain_icons/yahoo.png",
+            "language": "english",
+            "country": [
+                "united kingdom"
+            ],
+            "category": [
+                "business"
+            ],
+            "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "duplicate": true
+        },
+        {
+            "article_id": "5222320baf874ceeb6cb9e5692f383c1",
+            "title": "JD Sports: Retailer partners with UFC ahead of London Fight Night",
+            "link": "https://www.cityam.com/jd-sports-retailer-partners-with-ufc-ahead-of-london-fight-night/",
+            "keywords": [
+                "sport",
+                "business",
+                "sport business"
+            ],
+            "creator": [
+                "Matt Hardy"
+            ],
+            "video_url": null,
+            "description": "UK retailer and FTSE 100 giant JD Sports has partnered with fighting organisation UFC in a deal that begins this weekend at London’s Fight Night. The Manchester-headquartered brand forms half of a European partnership, which will see it become a key partner across UFC despite it issuing a profit warning in January. JD Sports forecast [...]",
+            "content": "ONLY AVAILABLE IN PAID PLANS",
+            "pubDate": "2025-03-17 19:30:00",
+            "pubDateTZ": "UTC",
+            "image_url": "https://www.cityam.com/wp-content/uploads/2025/03/GettyImages-1474577539-e1742236146100.jpg?w=1107",
+            "source_id": "cityam",
+            "source_priority": 52498,
+            "source_name": "City A.m.",
+            "source_url": "https://www.cityam.com",
+            "source_icon": "https://i.bytvi.com/domain_icons/cityam.png",
+            "language": "english",
+            "country": [
+                "united kingdom"
+            ],
+            "category": [
+                "sports",
+                "business"
+            ],
+            "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "duplicate": false
+        },
+        {
+            "article_id": "d1ef66f02cc5c02dd10c8aa83a57a528",
+            "title": "Youth shine in volleyball tournament at GHSS Filler-Thakrai",
+            "link": "https://www.greaterkashmir.com/business/youth-shine-in-volleyball-tournament-at-ghss-filler-thakrai/",
+            "keywords": [
+                "business",
+                "today's paper",
+                "page 12"
+            ],
+            "creator": [
+                "",
+                "GK NEWS SERVICE"
+            ],
+            "video_url": null,
+            "description": "The tournament was held under the direction of Deputy Commissioner Rajesh Kumar Shavan and under the guidance of DYSSO Jaffer Haider Sheikh and the supervision of ZPEOThe post Youth shine in volleyball tournament at GHSS Filler-Thakrai appeared first on Greater Kashmir.",
+            "content": "ONLY AVAILABLE IN PAID PLANS",
+            "pubDate": "2025-03-17 18:02:29",
+            "pubDateTZ": "UTC",
+            "image_url": "https://greaterkashmir.imagibyte.sortdcdn.net/wp-content/uploads/2025/03/Screenshot-2025-03-17-at-11.29.04-PM.png",
+            "source_id": "greaterkashmir",
+            "source_priority": 101259,
+            "source_name": "Greater Kashmir",
+            "source_url": "https://www.greaterkashmir.com",
+            "source_icon": "https://i.bytvi.com/domain_icons/greaterkashmir.jpg",
+            "language": "english",
+            "country": [
+                "india"
+            ],
+            "category": [
+                "business"
+            ],
+            "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "duplicate": false
+        },
+        {
+            "article_id": "0532ebab920e35dc3b1b1a87780dbebc",
+            "title": "DC Budgam reviews progress of Khel-Gaon sports complex",
+            "link": "https://www.greaterkashmir.com/business/dc-budgam-reviews-progress-of-khel-gaon-sports-complex/",
+            "keywords": [
+                "business",
+                "today's paper",
+                "page 12"
+            ],
+            "creator": [
+                "",
+                "GK NEWS SERVICE"
+            ],
+            "video_url": null,
+            "description": "The Rs. 4.78 crore project, which is expected to enhance sports activities and provide better facilities for local youth, is progressing at a fast pace and is being built under the Capex funds of J&K Sports CouncilThe post DC Budgam reviews progress of Khel-Gaon sports complex appeared first on Greater Kashmir.",
+            "content": "ONLY AVAILABLE IN PAID PLANS",
+            "pubDate": "2025-03-17 18:01:43",
+            "pubDateTZ": "UTC",
+            "image_url": "https://greaterkashmir.imagibyte.sortdcdn.net/wp-content/uploads/2025/03/Screenshot-2025-03-17-at-11.28.59-PM.png",
+            "source_id": "greaterkashmir",
+            "source_priority": 101259,
+            "source_name": "Greater Kashmir",
+            "source_url": "https://www.greaterkashmir.com",
+            "source_icon": "https://i.bytvi.com/domain_icons/greaterkashmir.jpg",
+            "language": "english",
+            "country": [
+                "india"
+            ],
+            "category": [
+                "business"
+            ],
+            "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "duplicate": false
+        },
+        {
+            "article_id": "14d492bce88c5acef62c11aa260975ac",
+            "title": "St. Patrick’s Day 2025: Rory McIlroy claims second Players Championship title after securing win in playoff battle",
+            "link": "https://economictimes.indiatimes.com/news/international/us/st-patricks-day-2025-rory-mcilroy-claims-second-players-championship-title-after-securing-win-in-playoff-battle/articleshow/119126296.cms",
+            "keywords": null,
+            "creator": null,
+            "video_url": null,
+            "description": "Rory McIlroy secured his second Players Championship victory after a thrilling three-hole playoff against JJ Spaun at TPC Sawgrass. Overcoming a weather delay, McIlroy maintained composure under pressure, making crucial shots to claim the title. His win on St. Patrick’s Day mirrored his 2019 triumph, solidifying his status among the elite multiple winners of the tournament.",
+            "content": "ONLY AVAILABLE IN PAID PLANS",
+            "pubDate": "2025-03-17 17:13:45",
+            "pubDateTZ": "UTC",
+            "image_url": "https://img.etimg.com/thumb/msid-119126289,width-1200,height-630,imgsize-47876,overlay-economictimes/articleshow.jpg",
+            "source_id": "economictimes_indiatimes",
+            "source_priority": 231,
+            "source_name": "The Economic Times",
+            "source_url": "https://economictimes.indiatimes.com",
+            "source_icon": "https://i.bytvi.com/domain_icons/economictimes_indiatimes.png",
+            "language": "english",
+            "country": [
+                "india"
+            ],
+            "category": [
+                "top",
+                "business"
+            ],
+            "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "duplicate": false
+        },
+        {
+            "article_id": "ef9552fac3680ca1521013491b78a4b6",
+            "title": "FTSE 100 rises despite more predictions of faltering UK growth",
+            "link": "https://www.standard.co.uk/business/business-news/ftse-100-rises-despite-more-predictions-of-faltering-uk-growth-b1217206.html",
+            "keywords": [
+                "business",
+                "business news"
+            ],
+            "creator": [
+                "Alex Daniel"
+            ],
+            "video_url": null,
+            "description": "London’s blue-chip index made gains as economists pared back forecasts for the UK amid Donald Trump’s tariffs.",
+            "content": "ONLY AVAILABLE IN PAID PLANS",
+            "pubDate": "2025-03-17 17:04:45",
+            "pubDateTZ": "UTC",
+            "image_url": "https://static.standard.co.uk/2025/03/17/17/185f4ef8383c9ed9055ab2a9fdf65989Y29udGVudHNlYXJjaGFwaSwxNzQyMzE2OTg4-2.78900045.jpg?auto=webp&crop=8%3A5%2Csmart&quality=75&width=1000",
+            "source_id": "standarduk",
+            "source_priority": 2356,
+            "source_name": "Evening Standard",
+            "source_url": "https://www.standard.co.uk",
+            "source_icon": "https://i.bytvi.com/domain_icons/standarduk.png",
+            "language": "english",
+            "country": [
+                "united kingdom"
+            ],
+            "category": [
+                "business"
+            ],
+            "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "duplicate": true
+        },
+        {
+            "article_id": "c0c41fb6c76e6da4bb715a371f1ad6cf",
+            "title": "Hackney Publications Publishes Fifth Annual 100 Law Firms With Sports Law Practices You Need To Know About",
+            "link": "https://menafn.com/1109324773/Hackney-Publications-Publishes-Fifth-Annual-100-Law-Firms-With-Sports-Law-Practices-You-Need-To-Know-About",
+            "keywords": null,
+            "creator": [
+                "marketing@menafn.com (MENAFN)"
+            ],
+            "video_url": null,
+            "description": "(MENAFN - GlobeNewsWire - Nasdaq) 100lawfirms.com is a portal that recognizes excellence and serves as a resource for those in need of experienced and capable legal counsel in the sports law ...",
+            "content": "ONLY AVAILABLE IN PAID PLANS",
+            "pubDate": "2025-03-17 16:45:55",
+            "pubDateTZ": "UTC",
+            "image_url": "https://menafn.com/images/Menafn_SmallLogo.jpg",
+            "source_id": "menafn",
+            "source_priority": 1117534,
+            "source_name": "Menafn",
+            "source_url": "https://menafn.com",
+            "source_icon": "https://i.bytvi.com/domain_icons/menafn.png",
+            "language": "english",
+            "country": [
+                "world"
+            ],
+            "category": [
+                "business"
+            ],
+            "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "duplicate": true
+        },
+        {
+            "article_id": "a0b57de5b330e876d887f7cc34b27143",
+            "title": "J K assembly approves demand for grants of Rs 1 69 2 crore for six departments",
+            "link": "https://www.theweek.in/wire-updates/business/2025/03/17/nrg13-jk-assembly-grants.html",
+            "keywords": null,
+            "creator": null,
+            "video_url": null,
+            "description": "Jammu, Mar 17 (PTI) The Jammu and Kashmir assembly on Monday approved the demand for grants of Rs 1,692.08 crore",
+            "content": "ONLY AVAILABLE IN PAID PLANS",
+            "pubDate": "2025-03-17 16:08:40",
+            "pubDateTZ": "UTC",
+            "image_url": "https://www.theweek.in/content/dam/week/wire-updates/pti-preview-theweek.jpg",
+            "source_id": "theweek_in",
+            "source_priority": 26911,
+            "source_name": "The Week",
+            "source_url": "https://www.theweek.in",
+            "source_icon": "https://i.bytvi.com/domain_icons/theweek_in.jpg",
+            "language": "english",
+            "country": [
+                "india"
+            ],
+            "category": [
+                "business"
+            ],
+            "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+            "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+            "duplicate": false
+        }
+    ],
+    "nextPage": "1742227720012442134"
+}

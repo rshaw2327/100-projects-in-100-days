@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2d</title>
+    <style>
+        .car {
+            width: 200px;
+            height: 100px;
+            background-color: chartreuse;
+            position: relative;
+            animation-name: car-moving;
+            animation-duration: 9s;
+            animation-iteration-count: infinite;
+            
+        }
+
+        @keyframes car-moving {
+
+            0% { 
+                transform:(0deg); background-color: black;
+            }
+  
+           100%{
+                transform:translate(500px)
+            }
+
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }    
+            
+            
+        }
+
+
+        .w {
+            width: 50px;
+            height: 50px;
+          
+            border-radius: 50%;
+            position: absolute;
+            animation-name: rotate;
+            animation-duration:9s ;
+            animation-iteration-count: infinite;
+        }
+
+        .w1 {
+            background-image: linear-gradient(red, blue);
+            left: 120px;
+            top: 80px;
+           
+        }
+
+        .w2 {
+            background-image: linear-gradient(red, green);
+            left: 20px;
+            top: 80px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="car">
+        <div class="w w1"> </div>
+
+        <div class="w w2"></div>
+
+    </div>
+
+
+
+</body>
+
+</html>

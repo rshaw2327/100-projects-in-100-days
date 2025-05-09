@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darksalmon;
+}
+
+.dict-Cont {
+    background-color:darkgreen;
+    padding:  80px 60px;
+    border-radius: 20px;
+    color: white;
+  
+}
+
+.w-Input {
+    background-color:darkgreen;
+    /* padding: 10px; */
+    font-size: 14px;
+    width:60%;
+    border: none;
+    border-bottom: 2px solid white;
+    color: gold;
+}
+
+.w-Input:focus {
+    outline: none;
+}
+
+.w-Input::placeholder {
+    color: white;
+}
+
+.btn {
+    padding: 8px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color:tomato;
+    color: white;
+}
+
+
+
+.word {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.word h1 {
+    margin-bottom: 0px;
+}
+.grammar{
+    font-family:cursive;
+    font-size: smaller;
+}
+
+.meaning {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.example {
+    font-family: sans-serif;
+}
+
