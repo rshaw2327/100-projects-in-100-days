@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:black;
+
+}
+
+
+.container input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid orange;
+    background-color: transparent;
+    color: white;
+    
+}
+
+input:focus {
+    outline: none;
+    
+}
+
+
+
+.container h4{
+    color: green;
+}
