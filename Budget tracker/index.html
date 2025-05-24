@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Budget Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+
+<body>
+    <main>
+        <section id="budget-tracker">
+            <h1>Budget Tracker</h1>
+            <div class="container">
+                <p>Your Balance</p>
+                <span class="bal-amount">$500000</span>
+                <div class="bal-cont">
+                    <div class="income">
+                        <h3>Income</h3>
+                        <span id="income">$800000</span>
+                    </div>
+                    <div class="expense">
+                        <h3>Expense</h3>
+                        <span id="expense">$8000</span>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="transaction-cont">
+                <div class="transaction-history">
+                    <h3>Transactions History:-</h3>
+                    <ul id="transactions">
+                        <li><span class="des-trans">Transaction 1</span><span class="amount">6000</span></li>
+                    </ul>
+                </div>
+
+                <div class="transaction-form">
+                    <h3>Add Transaction:-</h3>
+                    <form action="post">
+                        <label for="description">Description</label>
+                        <input type="text" id="description" placeholder="enter type of transaction" required>
+                        <label for="amount">Amount</label>
+                        <input type="number" id="amount" placeholder="enter amount" required>
+                        <button class="btn" type="button">Add the transaction</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+</body>
