@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    
+}
+
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    background-color: aquamarine;
+    position: relative;
+
+    
+}
+
+.game-board::after {
+    content:"";
+    width:90%;
+    height:10px;
+    background-color: red;
+    position: absolute;
+    border-radius: 8px;
+    top:95px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+  
+}
+
+.game-board.w123::after {
+    left: 50%;
+    top:95px;
+    transform: translateX(-50%);
+    width:90%;
+    opacity: 1;
+}
+
+.game-board.w456::after {
+    left: 50%;
+    top:295px;
+    transform: translateX(-50%);
+    width:90%;
+    opacity: 1;
+}
+
+.game-board.w789::after {
+    left: 50%;
+    top:495px;
+    transform: translateX(-50%);
+    width:90%;
+    opacity: 1;
+}
+
+.game-board.w147::after {
+    left: 95px;
+    top:50%;
+    transform: translateY(-50%);
+    width:10px;
+    height:90%;
+    opacity: 1;
+}
+
+.game-board.w258::after {
+    left:295px;
+    top:50%;
+    transform: translateY(-50%);
+    width:10px;
+    height:90%;
+    opacity: 1;
+}
+
+.game-board.w369::after {
+    left: 495px;
+    top:50%;
+    transform: translateY(-50%);
+    width:10px;
+    height:90%;
+    opacity: 1;
+}
+
+.game-board.w159::after {
+    left: 295px;
+    top:50%;
+    transform: translateY(-50%) rotate(-45deg);
+    width:10px;
+    height:120%;
+    opacity: 1;
+}
+
+.game-board.w357::after {
+    left: 295px;
+    top:50%;
+    transform: translateY(-50%) rotate(45deg);
+    width:10px;
+    height:120%;
+    opacity: 1;
+}
+
+
+
+.game-board div {
+    border:2px solid black;
+    width:200px;
+    height: 200px;
+    font-size: 8.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cell-1, .cell-2, .cell-3 {
+    border-top: none !important;
+}
+
+.cell-7, .cell-8, .cell-9 {
+    border-bottom: none !important;
+}
+
+.game-board div:nth-child(3n+1) {
+    border-left:none;
+}
+
+.game-board div:nth-child(3n+3) {
+    border-right:none;
+}
+
